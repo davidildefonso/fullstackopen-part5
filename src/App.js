@@ -159,7 +159,7 @@ const App = () => {
 			</Togglable>}
 		{user &&  
 			<div>
-				<p>  {user.name} logged-in  <span> <button onClick={handleLogOut} >logout</button> </span>  </p>
+				<p>  {user.name} logged in  <span> <button onClick={handleLogOut} >logout</button> </span>  </p>
 				{<Togglable buttonLabel="Create" ref={blogFormRef} >
 					<BlogForm	createBlog = {createBlog} 	/>
 				</Togglable>}
@@ -167,7 +167,7 @@ const App = () => {
 					<Blog key={blog.id} blog={blog}  likeBlog={likeBlog}  deleteBlog = {deleteBlog} />
 				)}
 			</div>
-		 }
+		}
 		
 	</div>
 	)

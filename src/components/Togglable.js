@@ -18,8 +18,7 @@ const Togglable = React.forwardRef ((props, ref ) => {
   })
 
 
-
-  	const TogglableStyle = {
+	const TogglableStyle = {
 		marginTop: 10,
 		marginBottom: 10
 	}
